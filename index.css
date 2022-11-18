@@ -1,0 +1,22 @@
+* {
+    font-family: 'faunces', serif;
+    color: #fff;
+}
+
+body{
+    margin: 0;
+    background-color: #224870;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100hz;
+    height: 100hz;
+}
+
+.calculadora {
+    display: grid;
+    grid-template-columns: repeat(4,75px) ;
+}
